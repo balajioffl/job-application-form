@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application Form</title>
+
+        <body>
+
+            <header style="background-color:rgb(0, 255, 221); text-align:center; padding:7px; font-family:Arial;">
+                <h1>Tata Consultancy Services</h1>
+                <h3>Information technology and consulting company</h3>
+            </header>
+                
+                
+            <nav style="background-color:black; text-align:right; padding:20px; font-size:18px; font-family:Arial;">
+                  <a style="color:yellow; font-family:Arial; "href="https://www.tcs.com/insights">insights</a>&ensp;&emsp;
+                  <a style="color:yellow; font-family:Arial; "href="https://www.tcs.com/careers">careers</a>&ensp;&emsp;
+                  <a style="color:yellow; font-family:Arial; "href="https://www.tcs.com/investor-relations">Investors</a>&ensp;&emsp;
+                  <a style="color:yellow; font-family:Arial; "href="https://www.tcs.com/investor-relations/ir-contact-us">contact-us</a>&ensp;&emsp;
+            </nav>
+
+            <p style="text-align:center; font-family: Arial, Helvetica, sans-serif;">
+                Our expert, committed team put our shared beliefs into action – every day. Together, we combine innovation and collective knowledge to create the extraordinary.
+            </p>
+            
+            <fieldset> 
+                <legend>Fill this form :</legend>
+                
+                <form action="success.html" style="background-color: rgb(177, 252, 255); font-family: Arial, Helvetica, sans-serif; font-size:18px;">
+
+                    <label for="fname" >First name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+
+                    <label for="lname" >Last name</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob"><br><br>
+
+                    <label>Gender</label><br><br>
+
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="Female" name="Gender" value="Female">
+                    <label for="Female">Female</label><br>
+                    <input type="radio" id="Others" name="Gender" value="Others">
+                    <label for="Others">Others</label>
+                    <br><br>
+
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="23"><br><br>
+
+                    <label for="blood-grp">Choose your Blood-Group</label>
+  
+                    <select name="blood-grp" id="blood-grp">
+                       
+                        <option value="A+ve">A+ve</option>
+                        <option value="B+ve">B+ve</option>
+                        <option value="O+ve">O+ve</option>
+                        <option value="AB+">AB+ve</option>
+                        <option value="AB-">AB-ve</option>
+                        <option value="A-">A-ve</option>
+                        <option value="B-">B-ve</option>
+                        <option value="O-">O-ve</option>
+
+                    </select><br><br>
+                    
+                    <label for="nationality" >Nationality</label><br>
+                    <input type="text" id="nationality" name="nationality" placeholder="nationality" required><br><br>
+
+                    <label for="fathername" >Fathername</label><br>
+                    <input type="text" id="fathername" name="fathername" placeholder="fathername" required><br><br>
+
+                    <label for="Mothername" >Mothername</label><br>
+                    <input type="text" id="Mothername" name="Mothername" placeholder="mothername" required><br><br>
+                    
+                    <label>Phone number</label>
+                    <input type="text" name="country code"  value="+91" size="2" readonly/>   
+                    <input type="text" name="phone" size="10" placeholder="number" maxlength="10"/><br><br> 
+
+                    <label>Enter your Email</label>
+                    <input type="email" placeholder="Enter Email" name="email" required><br><br>
+
+                    <label>Address</label><br>
+                    <textarea cols="40" rows="3" value="address" placeholder="Enter your Address"></textarea>  
+                    <br><br>
+
+                    <label for="district" >District</label>
+                    <input type="text" id="district" name="district" placeholder="Enter your District Name" required>
+
+                    <label for="state" >State name</label>
+                    <input type="text" id="state" name="state" placeholder="Enter your State Name" required>
+
+                    <label for="pincode">Pin-Code</label>
+                    <input type="text" id="pincode" name="pincode" maxlength="6" placeholder="pincode" required><br><br>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62184.93345091742!2d80.21828172619124!3d13.063760927078329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267c33a8a5625%3A0x392b4ab8850d96c0!2sTata%20Consultancy%20Services!5e0!3m2!1sen!2sin!4v1723607887440!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br><br>
+
+                    <label>Courses Known</label><br><br>
+                    <input type="checkbox" id="HTML" name="HTML" value="HTML">
+                    <label for="HTML"> HTML</label><br>
+                    <input type="checkbox" id="CSS" name="CSS" value="CSS">
+                    <label for="CSS"> CSS</label><br>
+                    <input type="checkbox" id="Javascript" name="Javascript" value="Javascript">
+                    <label for="Javascript"> Javascript</label><br>
+                    <input type="checkbox" id="Python" name="Python" value="Python">
+                    <label for="Python"> Python</label><br><br>
+                                    
+                
+                    <label>Job-Role</label>
+
+                    <select name="job-role" id="job-role">
+                       
+                        <option value="Frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="Tester">Tester</option>
+                        <option value="Fullstack-developer">Fullstack-developer</option>
+                        <option value="UI-developer">UI-developer</option>
+
+                    </select><br><br>
+
+                    <label>Passed-out Year</label>
+                    <input type="number" min="2000" max="2022" required>
+                    <br><br>
+
+                    <label>Upload your Resume</label><br>
+                    <input type="file" id="resume" name="resume"><br><br>
+
+                    <label>Upload your 10th Marksheet</label><br>
+                    <input type="file" id="10" name="10"><br><br>
+
+                    <label>Upload your 12th Marksheet</label><br>
+                    <input type="file" id="12" name="12"><br><br>
+
+                    <label>Upload your Diploma Certificate</label><br>
+                    <input type="file" id="Diploma" name="Diploma"><br><br>
+
+                    <label>Experience</label>
+                    <input type="number" min="0" max="5" required>
+                    <br><br>
+
+                    <label>Expected - Salary</label>
+
+                    <select name="Salary" id="Salary">
+                       
+                        <option value="1">10k - 20k</option>
+                        <option value="2">25k - 30k</option>
+                        <option value="3">30k - 40k</option>
+
+                    </select><br><br>
+
+                    <label for="previousjob">Previous-job</label>
+                    <input type="text" id="previousjob" name="previousjob" required><br><br>
+
+                    <label>Why do you Choose this job</label><br>
+                    <textarea cols="40" rows="3" value="job" placeholder="Enter your Thoughts"></textarea>  
+                    <br><br>
+                    
+                    <input type="submit" value="register">
+                    <input type="reset" value="reset">
+
+                </form>
+
+            </fieldset>
+
+            <footer style="background-color:rgb(0, 255, 213); text-align:center; padding:7px; font-family:Arial;">Thank you ! </footer>
+
+        </body>
+
+    </head>
+</html>
